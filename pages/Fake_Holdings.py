@@ -70,7 +70,7 @@ holdings = pd.DataFrame({
     'Percentage': ["100%"],
 })
 
-real_data = pd.read_csv("C:/Users/user/PycharmProjects/Code/etoro/TLT.csv")
+real_data = pd.read_csv("TLT.csv")
 
 # Convert 'Dates' to datetime for plotting
 real_data['Dates'] = pd.to_datetime(real_data['Dates'])
