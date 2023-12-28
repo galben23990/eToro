@@ -1,0 +1,76 @@
+body {
+  background-image: url('https://drive.google.com/uc?export=view&id=1R92OZpXK5MBOIb4Iz2rr67l345FRu-Y0')!important; 
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  background-attachment: fixed!important;
+}
+
+
+/* Style for headers and text */
+h1 {
+  color: #ff4b4b; /* Reddish color */
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.reportview-container {
+  background: url("https://drive.google.com/uc?export=view&id=1R92OZpXK5MBOIb4Iz2rr67l345FRu-Y0")!important;
+}
+h2, h3, h4, h5, h6 {
+  color: #3498db; /* Blue color */
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for metric values */
+.stMetricValue {
+  color: #27ae60; /* Green color */
+  font-weight: bold;
+}
+
+/* Custom styles for Streamlit components */
+.stTextInput > div > div > input {
+  border-radius: 20px;
+  border: 2px solid #3498db;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.stCheckbox > div {
+  background: linear-gradient(145deg, #f2f2f2, #e6e6e6);
+  border-radius: 5px;
+}
+
+.stRadio > label {
+  background: linear-gradient(145deg, #f7f7f7, #ebebeb);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* Hover effects for interactivity */
+.stButton > button, .stTextInput > div > div > input, .stRadio > label, .stCheckbox > div {
+  transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+  background-color: #3498db;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+}
+
+.stTextInput > div > div > input:hover, .stRadio > label:hover, .stCheckbox > div:hover {
+  box-shadow: 0 2px 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Custom styles for expander headers */
+.stExpander > div > div {
+  background-color: #e8e8e8;
+  border-radius: 10px;
+}
+
+/* Responsive Design Tweaks */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  h1 {
+      font-size: 1.5em;
+  }
+  .stTextInput > div > div > input, .stRadio > label, .stCheckbox > div {
+      font-size: 0.9em;
+  }
+}
